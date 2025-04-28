@@ -1,6 +1,6 @@
 # 🎵 Soundtrack
 
-**Soundtrack** é uma aplicação desenvolvida durante o curso de C# com foco em conceitos fundamentais de programação orientada a objetos (POO), estrutura de dados e boas práticas. O projeto simula um sistema de cadastro e avaliação de bandas musicais, permitindo registrar bandas, adicionar avaliações e visualizar médias de avaliação.
+**Soundtrack** é uma aplicação desenvolvida com o objetivo de praticar e aplicar conceitos fundamentais de programação orientada a objetos (POO), estrutura de dados e boas práticas de desenvolvimento em C#. O projeto simula um sistema de cadastro e avaliação de bandas musicais, permitindo registrar bandas, adicionar avaliações e visualizar médias de avaliação
 
 ## 🚀 Funcionalidades
 
@@ -29,4 +29,4 @@
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/soundtrack.git
+   git clone https://github.com/Valeriaaparecida/Soundtrack.git
