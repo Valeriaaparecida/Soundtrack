@@ -26,16 +26,13 @@ namespace SoundTrackPOO
         }
         
         public void ExibirDetalhes()
+    {
+        Console.WriteLine($"Podcast >|{Nome}|< apresentado por [{Host}]\n");
+        foreach (Episodio episodio in episodios.OrderBy(e => e.Ordem))
         {
-            Console.WriteLine($"Podcast: {Nome} - Host: {Host} \n");
-            foreach (var episodio in episodios.OrderBy(e => e.Ordem))
-            {
-                Console.WriteLine($"Episódio {episodio.Ordem}: {episodio.Titulo} - {episodio.Duracao} minutos");
-            }
-            {
-                Console.WriteLine(episodio.Resumo);
-            }   
-
+            Console.WriteLine(episodio.Resumo);
+        }
+        Console.WriteLine($"\n\nTotal de episódios: {TotalEpisodios}.");
     }
-}
+    }
 }
